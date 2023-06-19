@@ -1,0 +1,60 @@
+<!DOCTYPE html> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Payment</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div style="margin-left:25%">
+
+<div class="w3-container w3-teal">
+  <h1>New Input</h1>
+
+<div class="w3-container">
+
+<h1>New Payment </h1>
+
+</div>
+
+</div>
+
+<div class="container">
+<form action="input_process_pay.php" method="post" enctype="multipart/form-data" name="form1">
+    
+		
+	<div class="form-group">
+    <label for="pay_id">Payment ID :</label>
+    <input type="text" class="form-control" name="pay_id" id="pay_id">
+  </div>
+  
+  <div class="form-group">
+    <label for="pay_method">Payment Method :</label>
+    <input type="text" class="form-control" name="pay_method" id="pay_method">
+  </div>
+<div class="form-group">
+    <label for="pay_date">Date of Payment :</label>
+    <input type="date" class="form-control" name="pay_date" id="pay_date">
+  </div>
+    <div class="form-group">
+    <label for="pay_time">Time of Payment :</label>
+    <input type="time" class="form-control" name="pay_time" id="pay_time">
+  </div>
+
+  <div class="form-group">
+    <label for="pay_status">Payment Status :</label>
+    <input type="text" class="form-control" name="pay_status" id="pay_status">
+  </div>
+
+
+<button  name="SUBMIT" type="SUBMIT" class="btn btn-default">SUBMIT</button>
+
+</form>
+</body>
+</html>
+

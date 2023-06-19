@@ -1,0 +1,72 @@
+<!DOCTYPE html> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Booking</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div style="margin-left:25%">
+
+<div class="w3-container w3-teal">
+  <h1>New Input</h1>
+
+<div class="w3-container">
+
+<h1>New Booking </h1>
+
+</div>
+
+</div>
+
+<div class="container">
+<form action="input_process_book.php" method="post" enctype="multipart/form-data" name="form1">
+    
+		
+	<div class="form-group">
+    <label for="book_id">Booking ID :</label>
+    <input type="text" class="form-control" name="book_id" id="book_id">
+  </div>
+  
+  <div class="form-group">
+    <label for="book_date">Booking Date :</label>
+    <input type="date" class="form-control" name="book_date" id="book_date">
+  </div>
+<div class="form-group">
+    <label for="date_in">Check In :</label>
+    <input type="date" class="form-control" name="date_in" id="date_in">
+  </div>
+    <div class="form-group">
+    <label for="date_out">Check Out :</label>
+    <input type="date" class="form-control" name="date_out" id="date_out">
+  </div>
+
+  <div class="form-group">
+    <label for="price">Price (RM) :</label>
+    <input type="text" class="form-control" name="price" id="price">
+  </div>
+  <div class="form-group">
+    <label for="no_room">Num of Room :</label>
+    <input type="text" class="form-control" name="no_room" id="no_room">
+  </div>
+  <div class="form-group">
+    <label for="no_adult">Num of Adult :</label>
+    <input type="text" class="form-control" name="no_adult" id="no_adult">
+  </div>
+
+  <div class="form-group">
+    <label for="no_child">Num of Children :</label>
+    <input type="text" class="form-control" name="no_child" id="no_child">
+  </div>
+
+<button  name="SUBMIT" type="SUBMIT" class="btn btn-default">SUBMIT</button>
+
+</form>
+</body>
+</html>
+
